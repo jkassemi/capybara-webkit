@@ -4,7 +4,7 @@ module CapybaraWebkitBuilder
   extend self
 
   def makefile
-    system("qmake -spec macx-g++")
+    system("qmake-qt4")
   end
 
   def qmake
